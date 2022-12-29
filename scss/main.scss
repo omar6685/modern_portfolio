@@ -1,4 +1,5 @@
-@import 'confing';
+@import 'config';
+@import 'menu';
 * {
     box-sizing: border-box;
 }
@@ -62,7 +63,7 @@ main {
 
             &:hover {
                 color: $secondary-color;
-                @include easOut();
+                @include easeOut();
             }
         }
     }
